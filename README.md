@@ -12,8 +12,11 @@ You can enable the auto sell equipments feature to sell them every 10 runs.
 
 You'll have to set some things before start using this script.
 
-First choose a phase, preferably the ones with no dialog. (this script do not expect them)
+First you'll have to edit the *config.ini* file and replace your NoxPLayer instalation path
 
+```noxPath: D:\Program Files\Nox```
+
+Now, open the game and choose a phase, preferably the ones with no dialog. (this script do not expect them)
 
 <div>
   <img src="https://i.imgur.com/5O90Agi.png" width="auto" height="100%">
