@@ -32,7 +32,16 @@ def loop(battleTime):
             # Start
             print("Clicking Start")
             os.system("adb shell input tap 1136 668")
-            print("Waiting for battle (1:40 min)")
+            if battleTime < 60:
+                print("Waiting for battle ("+str(battleTime)+" s)")
+            else:
+                leftover = battleTime%60
+                if leftover < 10:
+                    leftover = str(leftover)
+                    leftover = leftover + "0"
+                else:
+                    leftover = str(leftover)
+                print("Waiting for battle ("+str(battleTime//60)+":"+leftover+" min)")
             time.sleep(battleTime)
 
             # Stage Clear
