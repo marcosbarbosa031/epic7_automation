@@ -90,6 +90,6 @@ At any time you can stop the script by typing ```Ctrl + C``` on the console. You
 </div>
 <br></br>
 
-If you type Y the script will resume from the start (Select Team screen).
+If you type Y the script will resume from the start (Select Supporter screen).
 
 Have fun!
