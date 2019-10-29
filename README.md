@@ -12,7 +12,7 @@ You can enable the auto sell equipments feature to sell them every 10 runs.
 
 You'll have to set some things before start using this script.
 
-First you'll have to edit the *config.ini* file and replace your NoxPLayer instalation path
+First you'll have to edit the ***config.ini*** file and replace your NoxPlayer instalation path
 
 ```noxPath: D:\Program Files\Nox```
 
