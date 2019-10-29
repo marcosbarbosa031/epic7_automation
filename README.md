@@ -45,7 +45,7 @@ Now you're ready to go.
 
 To use the automation you'll have to pass as an argument, the time, in seconds it takes for the battle to end.
 
-Open the game and select the phase you want and hit ***Ready*** to make sure you're on the Select Team screen.
+Open the game and select the phase you want and hit ***Ready*** to make sure you're on the Select Supporter screen.
 
 <div>
   <img src="https://i.imgur.com/uGE5RFS.png" width="auto" height="100%">
