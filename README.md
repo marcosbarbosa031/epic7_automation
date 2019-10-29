@@ -68,6 +68,7 @@ This is the config I use to autosell equipments (make sure to test to find what 
 <div>
   <img src="https://i.imgur.com/Q5lMVEe.png" width="auto" height="100%">
 </div>
+
 ***I'm not responsible for what happens to your equipments***
 
 ## Final Thoughts
