@@ -1,5 +1,5 @@
 # epic7_automation
-This script automates the repetition os doing the same stage over and over again to level up Heroes.
+This script automates the repetition of doing the same stage over and over again to level up Heroes.
 You can enable the auto sell equipments feature to sell them every 10 runs.
 
 ## Requirements
@@ -58,9 +58,9 @@ Now run de code passing the time, in seconds, as an argument.
 python bot.py 100
 ```
 
-## Opitional Argument
+## Optional Argument
 
-You can use the opitional argument ``` -s ``` to enable the auto sell equipments.
+You can use the optional argument ``` -s ``` to enable the auto sell equipments.
 
 But fisrt you have to setup some options first for the safety of your items.
 
