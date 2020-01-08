@@ -74,6 +74,10 @@ This is the config I use to autosell equipments (make sure to test to find what 
 
 ***I'm not responsible for what happens to your equipments***
 
+You can user the optional argument ``` -h ``` to enable Heal all heroes.
+
+Don't heall heroes by default.
+
 ## Final Thoughts
 
 The script will show on the console every steps that it makes.
