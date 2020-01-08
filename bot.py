@@ -18,16 +18,17 @@ def loop(battleTime):
             print("Clicking Select Team")
             os.system("adb shell input tap 1136 668")
             time.sleep(3)
+            
+            if healHeroes:
+                # Cure all
+                print("Clicking Cure all")
+                os.system("adb shell input tap 71 552")
+                time.sleep(2)
 
-            # Cure all
-            print("Clicking Cure all")
-            os.system("adb shell input tap 71 552")
-            time.sleep(2)
-
-            # Confirm
-            print("Clicking Confirm")
-            os.system("adb shell input tap 695 493")
-            time.sleep(2)
+                # Confirm
+                print("Clicking Confirm")
+                os.system("adb shell input tap 695 493")
+                time.sleep(2)
 
             # Start
             print("Clicking Start")
@@ -167,6 +168,7 @@ except IndexError:
 
 if len(sys.argv) > 1:
     sellEquipments = False
+    healHeroes = False
     try:
         battleTime = int(sys.argv[1])
     except ValueError:
@@ -175,6 +177,9 @@ if len(sys.argv) > 1:
 
     if '-s' in sys.argv:
         sellEquipments = True
+
+    if '-h' in sys.argv:
+        healHeroes = True
 
     # Change diretory to adb's
     os.chdir(path)
